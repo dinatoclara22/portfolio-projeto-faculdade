@@ -1,0 +1,96 @@
+/* Variáveis css para reutilizar dentro do código */
+:root {
+	--background: #e7e8ee;
+	--primary: #332d3e;
+	--secondary: #dddbd0;
+	--accent: #76825e;
+	--font-croissant: "Croissant One";
+	--font-poppins: "Poppins";
+}
+
+/* Reset do HTML */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--background);
+	font-family: var(--font-poppins);
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	margin-top: 3rem;
+}
+
+.profile-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.name {
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: var(--font-croissant);
+}
+
+.bu {
+	font-weight: 500;
+	font-size: 1.2rem;
+	text-decoration: underline;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	margin-top: 8rem;
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+.links li {
+	cursor: pointer;
+	transition: color 0.3s ease-in-out;
+
+	&:hover {
+		color: var(--accent);
+	}
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+	margin-left: 30rem;
+	margin-right: 30rem;
+}
+
+.content p {
+	background-color: var(--primary);
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	color: var(--background);
+}
+
+.li-tech li {
+	background-color: var(--primary);
+	color: var(--background);
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+}
