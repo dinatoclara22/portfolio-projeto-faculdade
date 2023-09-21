@@ -8,7 +8,7 @@ sobre.addEventListener("click", (e) => {
 	e.preventDefault();
 	text_content.innerHTML = `
     <p>
-    Me chamo Clara Dinato, sou Desenvolvedora Front-End, estou me graduando em Engenharia de Software na Uninter e atualmente estou estagiando na Globo dentro do time de BigData. Minhas principais atividades envolvem Python e SQL dentro da ferramentas do Google Cloud.
+    Me chamo Clara Dinato, sou Desenvolvedora Front-End, sou apaixonada por tecnologia e por aprender coisas novas. No tempo livre passo jogando ou pesquisando sobre hardware.
     </p>
   `;
 });
@@ -17,16 +17,15 @@ tech.addEventListener("click", (e) => {
 	e.preventDefault();
 	text_content.innerHTML = `
     <p>
-    Minhas principais tecnologias são: 
-    <ul class="li-tech">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Python</li>
-      <li>SQL</li>
-    </ul>
+      Atualmente estou me formando em Engenharia de Software na Uninter e estagiando na Globo dentro do time de BigData. Minhas principais atividades envolvem Python e SQL dentro da ferramentas do Google Cloud. 
     </p>
+    <p>
+      No ensino médio fiz técnico em informática, onde aprendi a programar em Javascript e construir jogos dentro da Unity.
+    </p>
+    <p>
+      Sou fluente em ingles, fiz curso na Cultura Inglesa durante 7 anos.
+    </p>
+    
   `;
 });
 
